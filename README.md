@@ -10,7 +10,7 @@ Das Ziel dieser Aufgabe ist es, den bestehenden Code gemäß den SOLID-Prinzipie
 Ausgangscode:<br>
 Der gegebene Ausgangscode besteht aus den folgenden Klassen und deren Methoden:<br>
 
-Order: Stellt eine allgemeine Bestellung dar.<br>
+´Order´: Stellt eine allgemeine Bestellung dar.<br>
 SpecialOrder: Erweitert die Order-Klasse um zusätzliche Anweisungen und eine zusätzliche Gebühr.<br>
 OrderManager: Verwaltet eine Liste von Bestellungen.<br>
 
