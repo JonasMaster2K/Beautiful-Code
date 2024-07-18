@@ -1,24 +1,27 @@
 # Beautiful-Code
-Designprinzipien - Klassen und Funktionen<br>
 
-Aufgabe:<br>
-Du erhältst eine bestehende Codebasis, die die Verwaltung von Bestellungen und Sonderbestellungen simuliert. Deine Aufgabe besteht darin, den gegebenen Code zu überarbeiten und dabei die SOLID-Prinzipien zu berücksichtigen. Der Code sollte in eine modularere und flexiblere Struktur umgewandelt werden, indem Interfaces und weitere Designprinzipien angewendet werden.<br>
+## Designprinzipien - Klassen und Funktionen
 
-Ziel:<br>
-Das Ziel dieser Aufgabe ist es, den bestehenden Code gemäß den SOLID-Prinzipien zu refaktorisieren, um die Wartbarkeit, Erweiterbarkeit und Lesbarkeit zu verbessern.<br>
+### Aufgabe:
+Du erhältst eine bestehende Codebasis, die die Verwaltung von Bestellungen und Sonderbestellungen simuliert. Deine Aufgabe besteht darin, den gegebenen Code zu überarbeiten und dabei die SOLID-Prinzipien zu berücksichtigen. Der Code sollte in eine modularere und flexiblere Struktur umgewandelt werden, indem Interfaces und weitere Designprinzipien angewendet werden.
 
-Ausgangscode:<br>
-Der gegebene Ausgangscode besteht aus den folgenden Klassen und deren Methoden:<br>
+### Ziel:
+Das Ziel dieser Aufgabe ist es, den bestehenden Code gemäß den SOLID-Prinzipien zu refaktorisieren, um die Wartbarkeit, Erweiterbarkeit und Lesbarkeit zu verbessern.
 
-`Order`: Stellt eine allgemeine Bestellung dar.<br>
-`SpecialOrder`: Erweitert die Order-Klasse um zusätzliche Anweisungen und eine zusätzliche Gebühr.<br>
-`OrderManager`: Verwaltet eine Liste von Bestellungen.<br>
+### Ausgangscode:
+Der gegebene Ausgangscode besteht aus den folgenden Klassen und deren Methoden:
+- Order: Stellt eine allgemeine Bestellung dar.
+- SpecialOrder: Erweitert die Order-Klasse um zusätzliche Anweisungen und eine zusätzliche Gebühr.
+- OrderManager: Verwaltet eine Liste von Bestellungen.
 
-Analyse des Ausgangscodes:<br>
-Verstehe die Struktur und Funktionalität der bestehenden Klassen.<br>
-Identifiziere mögliche Verstöße gegen die SOLID-Prinzipien.<br>
+### Analyse des Ausgangscodes:
+- Verstehe die Struktur und Funktionalität der bestehenden Klassen.
+- Identifiziere mögliche Verstöße gegen die SOLID-Prinzipien.
 
-Refactor des Codes:<br>
-Überarbeite die Klassen und Methoden, um die SOLID-Prinzipien anzuwenden.<br>
-Füge geeignete Interfaces hinzu und implementiere diese in den entsprechenden Klassen.<br>
-Achte darauf, dass der Code modular, erweiterbar und leicht verständlich wird.
+### Refactoring des Codes:
+- Überarbeite die Klassen und Methoden, um die SOLID-Prinzipien anzuwenden.
+- Füge geeignete Interfaces hinzu und implementiere diese in den entsprechenden Klassen.
+- Achte darauf, dass der Code modular, erweiterbar und leicht verständlich wird.
+
+### Tipp:
+Beachte, dass es in der Praxis nicht immer möglich ist, alle SOLID-Prinzipien gleichzeitig und vollständig anzuwenden. Ziel ist es, den bestmöglichen Kompromiss zu finden und die Prinzipien soweit wie möglich zu berücksichtigen, um einen sauberen und wartbaren Code zu erstellen.
