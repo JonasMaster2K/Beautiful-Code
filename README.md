@@ -1,20 +1,24 @@
 # Beautiful-Code
 Designprinzipien - Klassen und Funktionen
 
-Aufgabe 1:
-Überarbeite den Code nach den SOLID-Prinzipien.
+Aufgabe:
+Du erhältst eine bestehende Codebasis, die die Verwaltung von Bestellungen und Sonderbestellungen simuliert. Deine Aufgabe besteht darin, den gegebenen Code zu überarbeiten und dabei die SOLID-Prinzipien zu berücksichtigen. Der Code sollte in eine modularere und flexiblere Struktur umgewandelt werden, indem Interfaces und weitere Designprinzipien angewendet werden.
 
-Single Responsibility Principle (SRP):
-Extrahiere die Drucklogik aus der Order-Klasse und implementiere sie in einer eigenen Klasse.
+Ziel:
+Das Ziel dieser Aufgabe ist es, den bestehenden Code gemäß den SOLID-Prinzipien zu refaktorisieren, um die Wartbarkeit, Erweiterbarkeit und Lesbarkeit zu verbessern.
 
-Open/Closed Principle (OCP):
-Definiere eine Schnittstelle OrderPrinter und erstelle eine einfache Implementierung SimpleOrderPrinter.
+Ausgangscode:
+Der gegebene Ausgangscode besteht aus den folgenden Klassen und deren Methoden:
 
-Liskov Substitution Principle (LSP):
-Implementiere eine detaillierte Druckmethode DetailedOrderPrinter, die die einfache Druckmethode ersetzen kann.
+Order: Stellt eine allgemeine Bestellung dar.
+SpecialOrder: Erweitert die Order-Klasse um zusätzliche Anweisungen und eine zusätzliche Gebühr.
+OrderManager: Verwaltet eine Liste von Bestellungen.
 
-Interface Segregation Principle (ISP):
-Definiere eine Schnittstelle OrderRepository und implementiere eine In-Memory-Version InMemoryOrderRepository.
+Analyse des Ausgangscodes:
+Verstehe die Struktur und Funktionalität der bestehenden Klassen.
+Identifiziere mögliche Verstöße gegen die SOLID-Prinzipien.
 
-Dependency Inversion Principle (DIP):
-Gestalte die OrderManager-Klasse so um, dass sie von den Abstraktionen OrderRepository und OrderPrinter abhängt.
+Refactor des Codes:
+Überarbeite die Klassen und Methoden, um die SOLID-Prinzipien anzuwenden.
+Füge geeignete Interfaces hinzu und implementiere diese in den entsprechenden Klassen.
+Achte darauf, dass der Code modular, erweiterbar und leicht verständlich wird.
