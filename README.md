@@ -10,9 +10,9 @@ Das Ziel dieser Aufgabe ist es, den bestehenden Code gemäß den SOLID-Prinzipie
 
 ### Ausgangscode:
 Der gegebene Ausgangscode besteht aus den folgenden Klassen und deren Methoden:
-- Order: Stellt eine allgemeine Bestellung dar.
-- SpecialOrder: Erweitert die Order-Klasse um zusätzliche Anweisungen und eine zusätzliche Gebühr.
-- OrderManager: Verwaltet eine Liste von Bestellungen.
+- `Order`: Stellt eine allgemeine Bestellung dar.
+- `SpecialOrder`: Erweitert die Order-Klasse um zusätzliche Anweisungen und eine zusätzliche Gebühr.
+- `OrderManager`: Verwaltet eine Liste von Bestellungen.
 
 ### Analyse des Ausgangscodes:
 - Verstehe die Struktur und Funktionalität der bestehenden Klassen.
